@@ -1,7 +1,7 @@
 {
   "name": "angular-raphael-gauge",
-  "description": "Simple C3.js wrapper for AngularJS.",
-  "main": "dist/angular_c3_simple.js",
+  "description": "Nice and simple gauge Raphael.js for AngularJS.",
+  "main": "dist/angular-raphael-gauge.js",
   "keywords": ["angularjs", "c3", "chart"],
   "homepage": "https://github.com/wasilak/angular-raphael-gauge",
   "repository": {
