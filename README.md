@@ -65,6 +65,25 @@ Updating ```$scope.value``` will update gauge value and render animation.
 
 That's it! :) See [demo](http://wasilak.github.io/angular-raphael-gauge/) for working example.
 
+OPTIONS
+-------------------
+
+Here are options available to be set during runtime:
+
+```javascript
+var options = {
+              name: false,  // text under gauge
+              value: 25,    // value
+              image: false, // path to image (should be square) - it will be under gauge
+              text: false,  // text in the middle of gauge
+              textColor: '#000000', // text color
+              arcColor: '#57E0EA',  // animated arc color
+              bgArcColor: '#000',   // round background under arc
+              opacity: false,   // arc opacity
+              duration: 1600,   // animation duration
+              easing: 'bounce' // Raphael easing effect. Don't use backIn or Elastic, they mess up animation :/
+            };
+ ```
 
 Building / Minifing
 ----------
