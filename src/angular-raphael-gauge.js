@@ -27,6 +27,7 @@
               text: false,
               textColor: '#000000',
               arcColor: '#57E0EA',
+              bgArcColor: '#000',
               opacity: false,
               duration: 1600,
               easing: 'bounce' // Raphael easing effect. Don't use backIn or Elastic, they mess up animation :/
@@ -133,7 +134,7 @@
               // background arc
               newArcBg = paper.path().attr({
                   "stroke-opacity": (options.opacity) ? options.opacity : "1",
-                  "stroke": '#fff',
+                  "stroke": options.bgArcColor,
                   "stroke-width": radius * 0.1,
                   arc: [radius / 2, radius / 2, 100, 100, radius * 0.425]
               });

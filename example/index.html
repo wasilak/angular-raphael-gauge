@@ -14,7 +14,7 @@
     Change value:
     <select ng-model="gauge.value" ng-options="item.value as item.name for item in filterOptions"></select>
   </h2>
-  <div style="width: 20%;background-color: #45A076;color: #ffffff;">
+  <div style="width: 20%;">
     <raphael-gauge id="gauge1" config="gauge"></raphael-gauge>
   </div>
 </div>
@@ -29,8 +29,7 @@
 <script src="../bower_components/raphael/raphael-min.js"></script>
 
 <!-- angular raphael gauge -->
-<script src="../dist/angular-raphael-gauge.min.js"></script>
-<!-- <script src="../src/angular-raphael-gauge.js"></script> -->
+<script src="../src/angular-raphael-gauge.js"></script>
 
 <script>
   var angularDemo = angular.module('angularDemo', ['angular-raphael-gauge'])
@@ -56,7 +55,7 @@
         name: 'Some data',
         opacity: 0.55,
         value: 65,
-        image: 'test_image.png'
+        text: 'some cool data'
       };
   }
   ]);
