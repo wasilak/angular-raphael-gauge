@@ -1,0 +1,27 @@
+{
+  "name": "angular-raphael-gauge",
+  "description": "Simple C3.js wrapper for AngularJS.",
+  "main": "dist/angular_c3_simple.js",
+  "keywords": ["angularjs", "c3", "chart"],
+  "homepage": "https://github.com/wasilak/angular-raphael-gauge",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:wasilak/angular-raphael-gauge.git"
+  },
+  "license": "MIT",
+  "authors": [
+    "Piotr Wasilewski", "Piotr Wasilewski <piotr.m.wasilewski@gmail.com>"
+  ],
+  "ignore": [
+    ".gitignore",
+    ".jshintrc",
+    "Gruntfile.js",
+    "package.json",
+    "bower_components"
+  ],
+  "dependencies": {
+    "raphael": "~2.x",
+    "jquery": "~1.x"
+  },
+  "devDependencies": {}
+}
