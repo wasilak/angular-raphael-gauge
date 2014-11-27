@@ -1,6 +1,6 @@
 jQuery Raphael Gauge
 =============
-[![Code Climate](https://codeclimate.com/github/wasilak/jquery.raphaelGauge/badges/gpa.svg)](https://codeclimate.com/github/wasilak/jquery.raphaelGauge)
+[![Code Climate](https://codeclimate.com/github/wasilak/angular-raphael-gauge/badges/gpa.svg)](https://codeclimate.com/github/wasilak/angular-raphael-gauge)
 
 You can see demo [here](http://wasilak.github.io/jquery.raphaelGauge/).
 
