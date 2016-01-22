@@ -113,14 +113,20 @@
             }
 
             // adding text in the middle (if it is set)
+            var centerText;
             if (options.text) {
-              var text = paper.text(radius / 2, radius / 2, options.text)
-                  .attr({
-                    'font-size': radius / 16,
-                    "stroke": options.textColor,
-                    "fill": options.textColor
-                });
+                centerText = paper.text(radius / 2, radius / 2, options.text)
+                    .attr({
+                        'font-size': radius / 16,
+                        "stroke": options.textColor,
+                        "fill": options.textColor
+                    });
             }
+
+            //update center text on updates
+            $scope.$watch('config.text', function() {
+                centerText.attr('text', $scope.config.text);
+            });
 
             var newArc = false,newArcBg = false;
 
